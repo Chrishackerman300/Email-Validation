@@ -95,3 +95,24 @@ body{
 .show-submit{
     opacity: 100%;
 }
+
+@media screen and (max-width: 768px){
+    .formulario{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .formulario{
+        width: 100%;
+    }
+    
+    .buttons{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
